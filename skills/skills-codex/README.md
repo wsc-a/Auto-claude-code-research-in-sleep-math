@@ -16,6 +16,10 @@ Codex-native mirror and adaptation layer for the main ARIS `skills/` package.
 
 This package is still an appendage to the Claude mainline, not a separate Codex-first product line.
 
+## Targeted Literature Wrappers
+
+- `claim-lit-trace` - claim-driven pure-math / representation-theory reference tracing. It is narrower than `research-lit`: given one precise claim, it creates `docs/claim-lit-traces/<slug>/` with a targeted citation chain and minimal reading guide.
+
 ## Recommended Install
 
 Project-local install is the default path for Codex:

@@ -47,6 +47,7 @@ Paper retrieval, summarization, novelty verification.
 | Skill | Role | Requires |
 |---|---|---|
 | [`/research-lit`](../skills/research-lit/SKILL.md) | Multi-source literature search — Zotero / Obsidian / local PDFs / web / arXiv / S2 / DeepXiv / Exa / Gemini / OpenAlex with cross-source dedup | None (sources gated by MCP / SDK availability) |
+| [`/claim-lit-trace`](../skills/claim-lit-trace/SKILL.md) | Claim-driven pure-math / representation-theory reference tracing — follows only citations needed for one precise claim and writes a minimal reading guide | None (optional local PDFs / web / metadata helpers improve evidence) |
 | [`/arxiv`](../skills/arxiv/SKILL.md) | Search, download, summarize arXiv papers; multi-result table + per-paper detail | None |
 | [`/semantic-scholar`](../skills/semantic-scholar/SKILL.md) | Published-venue paper search (IEEE / ACM / Springer) — citation counts, venue metadata, TLDR | None (rate-limited without S2 API key) |
 | [`/deepxiv`](../skills/deepxiv/SKILL.md) | Progressive paper reading — search → brief → head → section → trending → web search | `pip install deepxiv-sdk` |
